@@ -2,9 +2,9 @@ import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import  org.junit.Test;
+//import  org.junit.Test;
 import org.openqa.selenium.Keys;
-
+import org.testng.annotations.Test;
 
 
 import static com.codeborne.selenide.Selectors.*;
