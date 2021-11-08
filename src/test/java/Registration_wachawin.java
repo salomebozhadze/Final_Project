@@ -1,6 +1,5 @@
 import StepObjects.RegistrationSteps;
 import Utils.chromeRunner;
-import Pages.Registration_page;
 import com.codeborne.selenide.Condition;
 import org.apache.commons.lang.RandomStringUtils;
 import org.testng.Assert;
