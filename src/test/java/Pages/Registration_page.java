@@ -1,9 +1,7 @@
 package Pages;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import org.apache.commons.lang.RandomStringUtils;
 
 import java.util.Random;
 
@@ -50,6 +48,38 @@ public class Registration_page {
     public void chooseYear(){
         year_dropdown.click();
         year_selector(rand.nextInt(82))
+                .shouldBe(Condition.visible,Condition.enabled).click();
+    }
+
+    public SelenideElement days_dropdown1 = $("#vs4__combobox");
+    public SelenideElement days_selector1(int i){
+        return $("#vs4__listbox li", i );
+    }
+    public SelenideElement month_dropdown1 = $("#vs5__combobox");
+    public SelenideElement month_selector1 (int i) {
+        return $("#vs5__listbox li", i);
+    }
+
+    public SelenideElement year_dropdown1 = $("#vs6__combobox");
+    public SelenideElement year_selector1 (int i) {
+        return $("#vs6__listbox li", i);
+    }
+
+    public void chooseDay1(){
+        days_dropdown1.click();
+        days_selector1(rand.nextInt(28))
+                .shouldBe(Condition.visible,Condition.enabled).click();
+    }
+
+    public void chooseMonth1(){
+        month_dropdown1.click();
+        month_selector1(rand.nextInt(11))
+                .shouldBe(Condition.visible,Condition.enabled).click();
+    }
+
+    public void chooseYear1(){
+        year_dropdown1.click();
+        year_selector1(rand.nextInt(82))
                 .shouldBe(Condition.visible,Condition.enabled).click();
     }
 
