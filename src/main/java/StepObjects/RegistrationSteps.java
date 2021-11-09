@@ -112,6 +112,21 @@ public class RegistrationSteps extends RegistrationPage {
         return this;
     }
 
+    public RegistrationSteps welcomeButtonClick(){
+        welcomeButton.click();
+        return this;
+    }
+
+    public RegistrationSteps myAccountButtonCLick(){
+        myAccountButton.click();
+        return this;
+    }
+
+    public RegistrationSteps logOutClick(){
+        logOutButton.click();
+        return this;
+    }
+
 
     public RegistrationSteps emailError(){
           emailError.shouldHave(Condition.text("Este campo es necesario"));

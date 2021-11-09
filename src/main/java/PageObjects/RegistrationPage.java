@@ -4,6 +4,7 @@ package PageObjects;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
+import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
@@ -35,7 +36,10 @@ public class RegistrationPage {
             nameError = $(".error-message", 0),
             lastNameError = $(".error-message", 1),
             dateError = $(".error-message", 2),
-            checkBoxError = $(".checkbox__buttons-box.checkbox__buttons-box--error");
+            checkBoxError = $(".checkbox__buttons-box.checkbox__buttons-box--error"),
+            welcomeButton = $(".button.button--primary.welcome-modal__button"),
+            myAccountButton = $(By.cssSelector(".header__logged-in>a")),
+            logOutButton = $(".details__logout");
 
 
     public ElementsCollection days_selector = $$("#vs1__listbox li"),

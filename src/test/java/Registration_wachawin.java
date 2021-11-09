@@ -2,6 +2,7 @@ import StepObjects.RegistrationSteps;
 import Utils.chromeRunner;
 import com.codeborne.selenide.Condition;
 import org.apache.commons.lang.RandomStringUtils;
+import org.apache.hc.core5.reactor.Command;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -14,7 +15,7 @@ import static DataObjects.RegistrationData.*;
 
 public class Registration_wachawin extends chromeRunner{
 
-    @Test
+    @Test (priority=1)
     public void PositiveCase() {
         RegistrationSteps steps = new RegistrationSteps();
 
@@ -41,12 +42,15 @@ public class Registration_wachawin extends chromeRunner{
 
     }
 
-    @Test
+    @Test (priority=2)
     public void NegativeCase(){
         RegistrationSteps steps = new RegistrationSteps();
 
 
         steps
+                .welcomeButtonClick()
+                .myAccountButtonCLick()
+                .logOutClick()
                 .clickOnRegisterButton()
                 .clickNext()
                 .emailError()
@@ -65,7 +69,7 @@ public class Registration_wachawin extends chromeRunner{
         Assert.assertTrue($(byText("Por favor ingrese un número válido de 10 dígitos")).is(Condition.visible));
 
         steps
-                .emailInput(emailAddress)
+                .emailInput(EmailAddress)
                 .passwordFIeld(passwordField)
                 .repeatPassword(repeatPassword)
                 .mobileField(mobileField)
