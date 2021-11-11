@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1fdbc7a-d8cc-47eb-92c0-ba9ef32dcfe6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0fdbdcc4-47b1-4ca2-beb5-743695b2b9bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/16bd0730-c279-4a74-be5a-e75c20201b11-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/45a326a7-db81-4d47-a22a-d54cb8d12a20-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5645cd61-87f9-4409-b868-2d5a10b14ed8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/61a81505-2f04-464d-b617-ab9686ab198d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6f7e58fd-846d-4fb1-910c-842256891dc9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6fe40c67-a8c6-45f6-b5fa-02a55366c2ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d109e208-ead7-413b-977b-b401ff2813d7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e37bc719-b823-4ac0-9a5f-ae6257a35d57-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepObjects/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObjects/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepObjects/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObjects/RegistrationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/chromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/chromeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Login_wachawin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_wachawin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Registration_wachawin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Registration_wachawin.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="202yKaynjuBcZxS2wYurJDThwhm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="DataObjects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Login_wachawin.AutoLogin (1)">
+    <configuration name="C:/Users/salom/IdeaProjects/Final_Project/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_wachawin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login_wachawin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_wachawin.AutoLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login_wachawin" />
+      <option name="METHOD_NAME" value="AutoLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login_wachawin.loginErrorsCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Login_wachawin" />
+      <option name="METHOD_NAME" value="loginErrorsCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registration_wachawin.PositiveCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Registration_wachawin" />
+      <option name="METHOD_NAME" value="PositiveCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Login_wachawin.AutoLogin (1)" />
+        <item itemvalue="TestNG.C:/Users/salom/IdeaProjects/Final_Project/testing.xml" />
+        <item itemvalue="TestNG.Registration_wachawin.PositiveCase" />
+        <item itemvalue="TestNG.Login_wachawin" />
+        <item itemvalue="TestNG.Login_wachawin.loginErrorsCheck" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1fdbc7a-d8cc-47eb-92c0-ba9ef32dcfe6" name="Changes" comment="" />
+      <created>1635256915961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635256915961</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
