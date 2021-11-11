@@ -1,10 +1,12 @@
 import StepObjects.RegistrationSteps;
+import Utils.Retry;
 import Utils.chromeRunner;
 import com.codeborne.selenide.Condition;
-import org.apache.commons.lang.RandomStringUtils;
-import org.apache.hc.core5.reactor.Command;
+
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import io.qameta.allure.Description;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
@@ -12,10 +14,11 @@ import static com.codeborne.selenide.Selenide.sleep;
 import static DataObjects.RegistrationData.*;
 
 
-
+@Listeners(Utils.TestLister.class)
 public class Registration_wachawin extends chromeRunner{
 
-    @Test (priority=1)
+    @Test (priority=1, retryAnalyzer = Retry.class)
+    @Description("Success Registration Steps")
     public void PositiveCase() {
         RegistrationSteps steps = new RegistrationSteps();
 
@@ -42,7 +45,8 @@ public class Registration_wachawin extends chromeRunner{
 
     }
 
-    @Test (priority=2)
+    @Test (priority=2, retryAnalyzer = Retry.class)
+    @Description("Check errors if some data is incorrect")
     public void NegativeCase(){
         RegistrationSteps steps = new RegistrationSteps();
 
