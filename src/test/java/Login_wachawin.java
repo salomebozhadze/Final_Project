@@ -23,9 +23,9 @@ import static com.codeborne.selenide.Selenide.*;
 public class Login_wachawin extends chromeRunner {
 
 
-    @Test (priority=1, retryAnalyzer = Retry.class)
+    @Test(priority = 1, retryAnalyzer = Retry.class)
     @Description("Success Login When RememberMe is checked")
-    public void AutoLogin(){
+    public void AutoLogin() {
         LoginSteps steps = new LoginSteps();
 
         steps
@@ -42,13 +42,11 @@ public class Login_wachawin extends chromeRunner {
                 .logOutClick();
 
 
-
-
     }
 
-    @Test (priority=2, retryAnalyzer = Retry.class)
-    @Description ("Success Login When RememberMe is not checked")
-    public void Login(){
+    @Test(priority = 2, retryAnalyzer = Retry.class)
+    @Description("Success Login When RememberMe is not checked")
+    public void Login() {
         LoginSteps steps = new LoginSteps();
 
         steps
@@ -68,12 +66,11 @@ public class Login_wachawin extends chromeRunner {
                 .passwordErrorEmpty();
 
 
-
     }
 
-    @Test (priority=3, retryAnalyzer = Retry.class)
-    @Description ("Check errors when Data is incorrect")
-    public void loginErrorsCheck(){
+    @Test(priority = 3, retryAnalyzer = Retry.class)
+    @Description("Check errors when Data is incorrect")
+    public void loginErrorsCheck() {
         LoginSteps steps = new LoginSteps();
 
         steps
@@ -88,7 +85,6 @@ public class Login_wachawin extends chromeRunner {
 
         sleep(3000);
         Assert.assertTrue($(byText("La contraseña no coincide intentar nuevamente")).is(Condition.visible));
-
 
 
     }

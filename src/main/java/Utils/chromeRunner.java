@@ -15,18 +15,18 @@ import static com.codeborne.selenide.WebDriverRunner.closeWebDriver;
 public class chromeRunner {
     @BeforeTest
     @Description("Configure browser before test")
-    public static void setup(){
+    public static void setup() {
         WebDriverManager.chromedriver().setup();
-        Configuration.browserSize = "750x1334";
+        Configuration.browserSize = "750x1340";
         System.setProperty("chromeoptions.mobileEmulation", "deviceName=iPhone 6");
         open("https://wachawin.preprod.smrtsrc.io/es");
     }
 
     @AfterTest
-    @Description ("Close browser after tests")
-    public static void clear(){
-//        clearBrowserCookies();
- //       clearBrowserLocalStorage();
+    @Description("Close browser after tests")
+    public static void clear() {
+        clearBrowserCookies();
+        clearBrowserLocalStorage();
         closeWebDriver();
     }
 

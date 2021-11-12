@@ -50,7 +50,7 @@ public class LoginSteps extends LoginPage {
         return this;
     }
 
-    @Step("Click Logout Button")
+    @Step("Click Remember me Button")
     public LoginSteps rememberMeClick() {
         rememberMe.click();
         return this;

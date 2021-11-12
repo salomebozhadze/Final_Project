@@ -6,22 +6,44 @@
   <component name="ChangeListManager">
     <list default="true" id="d1fdbc7a-d8cc-47eb-92c0-ba9ef32dcfe6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0fdbdcc4-47b1-4ca2-beb5-743695b2b9bc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/16bd0730-c279-4a74-be5a-e75c20201b11-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/45a326a7-db81-4d47-a22a-d54cb8d12a20-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5645cd61-87f9-4409-b868-2d5a10b14ed8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/61a81505-2f04-464d-b617-ab9686ab198d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6f7e58fd-846d-4fb1-910c-842256891dc9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/6fe40c67-a8c6-45f6-b5fa-02a55366c2ab-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d109e208-ead7-413b-977b-b401ff2813d7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e37bc719-b823-4ac0-9a5f-ae6257a35d57-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1e699c2a-e01f-4cfa-9456-7bf4bc525d70-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2137b056-79da-4600-83bb-0bc44319196e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2786c97e-9987-428c-9fc7-a7f903c07028-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2975456e-c8a9-4a15-9f6c-c777759b7871-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/31eff2c6-a400-4e06-b2e2-afa01d6b1053-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/41bd90b6-afdc-4090-b97c-53420598976a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/534b9c1d-dd32-489e-8f05-ae664cabe3da-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/55a01161-5b63-44fe-bf9a-ffd02cd236d8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/79923a91-6cee-40f3-bfbf-b909747fa0cc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7a77133f-c58d-4776-9ae1-a78341f8079d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7fd2b2bb-12bf-4ea9-a161-0d7078ffa9cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80739da4-5914-4284-ab06-efe5ff13946a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/963f1bb6-2760-4008-8915-734e69c13fb4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a6c46f22-857e-4f89-a605-ba5e6f5dfa18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bbdda00b-1724-496f-873e-baf535e40da0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c06fd0bd-6700-4d82-9fcf-99d58298ad23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c48d29cd-f453-4e90-9e84-16daf84faa7f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c8711510-3fa0-45f6-a3df-87e9eef4bcf6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ccf9a853-a137-47b8-ba96-90001cf3aa72-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cd105a14-6cef-4d60-bae7-f2626c1e0722-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d3fa8ab3-8570-4854-a915-b4faecec95d5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/da82864e-cd25-4ff8-8db5-68d8124cadf8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/daf339fd-6b13-4b2f-8800-844b8c9ea2a0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e65f66a6-6c08-4806-9822-b5d21688bba7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fa491b3d-3c85-41d5-9305-aaf1920035d9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fa6ed7ab-7023-4609-9d39-586d1ea85769-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/feaffc74-7fc3-42c1-a98b-cf86d155d3b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataObjects/WithdrawData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataObjects/WithdrawData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/WithdrawPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/WithdrawPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StepObjects/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObjects/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StepObjects/RegistrationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObjects/RegistrationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepObjects/WithdrawSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepObjects/WithdrawSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utils/chromeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/chromeRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Login_wachawin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Login_wachawin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Registration_wachawin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Registration_wachawin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Withdraw_wachawin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Withdraw_wachawin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +87,7 @@
       <recent name="DataObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Login_wachawin.AutoLogin (1)">
+  <component name="RunManager" selected="TestNG.C:/Users/salom/IdeaProjects/Final_Project/testing.xml">
     <configuration name="C:/Users/salom/IdeaProjects/Final_Project/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
@@ -87,11 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_wachawin.AutoLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Withdraw_wachawin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login_wachawin" />
-      <option name="METHOD_NAME" value="AutoLogin" />
+      <option name="MAIN_CLASS_NAME" value="Withdraw_wachawin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Withdraw_wachawin.withdrawAmount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Withdraw_wachawin" />
+      <option name="METHOD_NAME" value="withdrawAmount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,23 +132,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login_wachawin.loginErrorsCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Withdraw_wachawin.withdrawErrors" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Login_wachawin" />
-      <option name="METHOD_NAME" value="loginErrorsCheck" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Registration_wachawin.PositiveCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Registration_wachawin" />
-      <option name="METHOD_NAME" value="PositiveCase" />
+      <option name="MAIN_CLASS_NAME" value="Withdraw_wachawin" />
+      <option name="METHOD_NAME" value="withdrawErrors" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Login_wachawin.AutoLogin (1)" />
         <item itemvalue="TestNG.C:/Users/salom/IdeaProjects/Final_Project/testing.xml" />
-        <item itemvalue="TestNG.Registration_wachawin.PositiveCase" />
         <item itemvalue="TestNG.Login_wachawin" />
-        <item itemvalue="TestNG.Login_wachawin.loginErrorsCheck" />
+        <item itemvalue="TestNG.Withdraw_wachawin.withdrawAmount" />
+        <item itemvalue="TestNG.Withdraw_wachawin" />
+        <item itemvalue="TestNG.Withdraw_wachawin.withdrawErrors" />
       </list>
     </recent_temporary>
   </component>

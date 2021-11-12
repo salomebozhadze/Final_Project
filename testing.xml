@@ -2,17 +2,24 @@
 
 <suite name="Automation Suite" thread-count="3" parallel="tests">
 
-    <test name="TestSuit1" parallel="tests" >
+    <test name="TestSuit1" parallel="tests">
         <classes>
-            <class name="Registration_wachawin" />
+            <class name="Registration_wachawin"/>
 
         </classes>
     </test>
 
-    <test name="TestSuit2" parallel="tests" >
+    <test name="TestSuit2" parallel="tests">
         <classes>
 
-            <class name="Login_wachawin" />
+            <class name="Login_wachawin"/>
+        </classes>
+    </test>
+
+    <test name="TestSuit3" parallel="tests">
+        <classes>
+
+            <class name="Withdraw_wachawin"/>
         </classes>
     </test>
 </suite>

@@ -15,9 +15,9 @@ import static DataObjects.RegistrationData.*;
 
 
 @Listeners(Utils.TestLister.class)
-public class Registration_wachawin extends chromeRunner{
+public class Registration_wachawin extends chromeRunner {
 
-    @Test (priority=1, retryAnalyzer = Retry.class)
+    @Test(priority = 1, retryAnalyzer = Retry.class)
     @Description("Success Registration Steps")
     public void PositiveCase() {
         RegistrationSteps steps = new RegistrationSteps();
@@ -45,9 +45,9 @@ public class Registration_wachawin extends chromeRunner{
 
     }
 
-    @Test (priority=2, retryAnalyzer = Retry.class)
+    @Test(priority = 2, retryAnalyzer = Retry.class)
     @Description("Check errors if some data is incorrect")
-    public void NegativeCase(){
+    public void NegativeCase() {
         RegistrationSteps steps = new RegistrationSteps();
 
 
@@ -107,6 +107,6 @@ public class Registration_wachawin extends chromeRunner{
         Assert.assertTrue($(byText("Por favor ingrese su nombre. Solo letras, espacios y  “-“ ")).is(Condition.not(Condition.visible)));
         Assert.assertTrue($(byText("Por favor dinos tu edad. Debes de ser mayor de 18 años para poder jugar.")).is(Condition.not(Condition.visible)));
 
-}
+    }
 
 }
